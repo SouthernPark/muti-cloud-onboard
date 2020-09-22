@@ -2,7 +2,8 @@
 setup:
 	python3 -m venv ~/.flask-ml-azure
 	#source ~/.flask-ml-azure/bin/activate
-	
+
+#升级pip 并且安装 requirements.txt当中的 包	
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
@@ -13,7 +14,6 @@ test:
 
 
 lint:
-	#hadolint Dockerfile #uncomment to explore linting Dockerfiles
-	pylint --disable=R,C,W1203,W0702 app.py
+	pylint --disable=R,C hello.py
 
 all: install lint test

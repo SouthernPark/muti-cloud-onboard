@@ -29,3 +29,5 @@ Begin your work in AWS
         touch requirements.txt
     *test
         touch test_hello.py
+
+make install --> install packages in the requirements.txt
