@@ -18,7 +18,8 @@ https://github.com/noahgift/flask-ml-azure-serverless
 Begin your work in AWS  
 
 1. create python virtual environment  
-    python3 -m venv ~/.<same name as your repo>  --> create a virtual env  
+    python3 -m venv ~/.[same name as your repo>]  
+    --> create a virtual env  
     source ~/.muti-cloud-onboard/bin/activate    --> activate the virtual env  
 2. create scaffolding  
     *Makefile  
